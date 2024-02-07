@@ -24,10 +24,7 @@ body{
     flex-wrap: wrap;
 }
 
-main{
-    background-color: #000000;
-    height: calc(100vh - 160px);
-}
+
 
 footer{
     background-color: #222222;
@@ -61,6 +58,7 @@ header{
 header > .row{
     justify-content: end;
     align-items: center;
+    gap: 8px;
     padding: 8px 10px;
 }
 
@@ -68,6 +66,25 @@ header > .row{
     MAIN
 ------------*/
 
+main{
+    background-color: #000000;
+    height: calc(100vh - 160px);
+    overflow: auto;
+}
+
+main > .row{
+    padding: 30px 90px;
+}
+
 .user-cam{
-    
+    height: 150px;
+    width: 250px;
+    position: relative;
+}
+
+.username{
+    background-color: rgba(128, 128, 128, 0.308);
+    position: absolute;
+    left: 0;
+    bottom: 9px;
 }
