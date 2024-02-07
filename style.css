@@ -22,7 +22,6 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-    padding: 8px 10px;
 }
 
 main{
@@ -45,8 +44,12 @@ footer{
     border: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 /*------------
-    GENERAL
+    HEADER
 -------------- */
 
 header{
@@ -58,4 +61,13 @@ header{
 header > .row{
     justify-content: end;
     align-items: center;
+    padding: 8px 10px;
+}
+
+/*----------
+    MAIN
+------------*/
+
+.user-cam{
+    
 }
