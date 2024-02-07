@@ -15,7 +15,11 @@ body{
 }
 
 .icon{
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.share-icon{
+    color: #4BC800;
 }
 
 /*------------
@@ -111,9 +115,6 @@ footer{
 footer > .col-1{
     display: flex;
     gap: 12px;
-    
-    
-
 }
 
 .icon-menu-container{
@@ -127,4 +128,14 @@ footer > .col-1{
     display: flex;
     flex-direction: column;
     justify-content: center;   
+}
+
+footer > .col-grow{
+    display: flex;
+    gap: 12px;
+}
+
+.share{
+    display: flex;
+    gap: 12px;
 }
