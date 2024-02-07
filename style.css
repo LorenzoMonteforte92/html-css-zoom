@@ -139,3 +139,10 @@ footer > .col-grow{
     display: flex;
     gap: 12px;
 }
+
+.btn-footer{
+    color: red;
+    font-weight: lighter;
+    border-radius: 0;
+    padding: 25px 15px;
+}
