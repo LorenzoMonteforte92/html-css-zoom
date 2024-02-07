@@ -110,6 +110,7 @@ footer{
     padding-bottom: 15px;
     padding-top: 10px;
     padding-left: 15px;
+    justify-content: space-between;
 }
 
 footer > .col-1{
@@ -133,6 +134,8 @@ footer > .col-1{
 footer > .col-grow{
     display: flex;
     gap: 12px;
+    justify-content: center;
+    padding-right: 125px;
 }
 
 .share{
@@ -145,4 +148,8 @@ footer > .col-grow{
     font-weight: lighter;
     border-radius: 0;
     padding: 25px 15px;
+}
+
+.btn-column{
+    justify-content: end;
 }
