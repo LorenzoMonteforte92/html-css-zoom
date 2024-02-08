@@ -43,6 +43,7 @@ body{
 
 img{
     width: 100%;
+    display: block;
 }
 
 .col-1{
@@ -107,16 +108,15 @@ footer{
     background-color: #222222;
     height: 80px;
     color: white;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     padding-top: 10px;
     padding-left: 15px;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 footer > .col-1{
     display: flex;
-    flex-wrap: wrap;
     gap: 12px;
 }
 
@@ -124,7 +124,6 @@ footer > .col-1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
     min-height: 50px;
 
 }
@@ -139,6 +138,7 @@ footer > .col-grow{
     display: flex;
     gap: 12px;
     justify-content: center;
+    overflow: hidden;
 }
 
 .share{
